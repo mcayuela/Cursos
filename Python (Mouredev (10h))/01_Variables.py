@@ -3,3 +3,4 @@
 LaMevaVariable = "La meva variable string"
 print(LaMevaVariable)
 
+print("Proves Python")
