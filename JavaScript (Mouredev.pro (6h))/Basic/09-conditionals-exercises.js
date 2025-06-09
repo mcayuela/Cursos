@@ -51,7 +51,7 @@ edat >= 18 ? console.log("Adult") : console.log("Menor")
 console.log("------------------------------------")
 
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes".
-let mes = 7
+let mes = 4
 
 if (mes == 1 || mes == 2 || mes == 3) {
     console.log("Estació 1")
@@ -64,14 +64,70 @@ if (mes == 1 || mes == 2 || mes == 3) {
 console.log("------------------------------------")
 
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior.
-
+if (mes == 2) {
+    console.log("28 o 29 Dies")
+} else if ([4, 6, 9, 11].includes(mes)) {
+    console.log("30 Dies")
+} else {
+    console.log("31 Dies")
+}
 
 console.log("------------------------------------")
 
 // switch
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma.
+let idiomaPredeterminat = "Angles"
+
+switch (idiomaPredeterminat) {
+    case "Castella":
+        console.log("Hola buenos dias")
+        break
+    case "Angles":
+        console.log("Hi, good morning")
+        break
+    case "Catala":
+        console.log("Hola, bon dia")
+        break
+    case "Italia":
+        console.log("Buongiorno")
+        break
+    default:
+        console.log("Idioma no vàlid")
+}
+console.log("------------------------------------")
 
 // 9. Usa un switch para hacer de nuevo el ejercicio 6.
+switch (mes) {
+    case 1:
+    case 2:
+    case 3:
+        console.log("Estació 1")
+        break
+    case 4:
+    case 5:
+    case 6:
+        console.log("Estació 2")
+        break
+    default:
+        console.log("Estació 3")
+}
+
+console.log("------------------------------------")
 
 // 10. Usa un switch para hacer de nuevo el ejercicio 7.
+switch (mes) {
+    case 2:
+        console.log("28 o 29 Dies")
+        break
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+        console.log("30 Dies")
+        break
+    default:
+        console.log("31 Dies")
+}
+
+console.log("------------------------------------")
