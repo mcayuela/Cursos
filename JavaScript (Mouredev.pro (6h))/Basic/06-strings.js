@@ -6,15 +6,18 @@ let greeting = "Hola, " + myName + "!"
 console.log(greeting)
 
 console.log("------------------------------------")
+
 // Longitud
 console.log(greeting.length)
 
 console.log("------------------------------------")
+
 // Accès a caracters
 console.log(greeting[0])
 console.log(greeting[12])
 
 console.log("------------------------------------")
+
 // Mètodes comuns
 console.log(greeting.toUpperCase())
 console.log(greeting.toLowerCase())
@@ -26,6 +29,7 @@ console.log(greeting.slice(0, 10))
 console.log(greeting.replace("Marcel", "Mcayuela"))
 
 console.log("------------------------------------")
+
 // Template literals (plantilles literals)
 
 let message = `Hola aquest es el meu
@@ -34,3 +38,5 @@ console.log(message)
 
 let myMail = "mcayueladolcet@gmail.com"
 console.log(`Hola, ${myName}, el teu mail es ${myMail}!`) // Gràcies als template literals podem incloure una variable dins d'una cadena de text
+
+console.log("------------------------------------")

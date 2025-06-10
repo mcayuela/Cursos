@@ -1,4 +1,5 @@
-// SET (Estructura de dades que NO permet DUPLICAR les dades, nomes pots emmagatzemar valors ÚNICS)
+// SET 
+// (Estructura de dades que NO permet DUPLICAR les dades, nomes pots emmagatzemar valors ÚNICS)
 
 // Declaració
 let mySet = new Set() // En cas dels sets SI que hem de declarar-los aixi, no podem triar com en el cas dels arrays

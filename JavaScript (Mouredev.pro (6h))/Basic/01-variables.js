@@ -1,7 +1,7 @@
 // TIPUS DE VARIABLES
 
 // var
-// JA NO S'HA D'UTILITZAR
+// (JA NO S'HA D'UTILITZAR)
 var helloWorld = "Hola, JavaScript"
 console.log(helloWorld)
 
@@ -20,10 +20,6 @@ console.log(helloWorld2)
 // no es pot reassignar perque és constant per tant el valor que li donem quan la declarem sera el definitiu
 const helloWorld3 = "Hola, JavaScript 3"
 console.log(helloWorld3)
-
-
-
-
 
 
 /* 

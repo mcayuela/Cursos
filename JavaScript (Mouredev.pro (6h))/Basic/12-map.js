@@ -1,4 +1,5 @@
 // Map 
+// MAP (Estructura de dades que emmagatzema parelles CLAU-VALOR, permet claus ÚNIQUES de qualsevol tipus)
 
 // Declaració
 let myMap = new Map()

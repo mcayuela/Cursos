@@ -1,4 +1,5 @@
-// ARRAYS (Estructura de dades que permet emmagatzemar més d'un valor en una sola variable)
+// ARRAYS 
+// (Estructura de dades que permet emmagatzemar més d'un valor en una sola variable)
 
 // Declaració
 let myArray = [] //aquesta es la més utilitzada i recomanable
