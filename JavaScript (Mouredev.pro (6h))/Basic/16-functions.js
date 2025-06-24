@@ -98,4 +98,4 @@ myArray.forEach(function (value) {
     console.log(value)
 });
 
-myArray.forEach((value) => console.log(value)) // lo mateix que l'altra pero en una arrow function
+myArray.forEach((value) => console.log(value)) // lo mateix. que l'altra pero en una arrow function

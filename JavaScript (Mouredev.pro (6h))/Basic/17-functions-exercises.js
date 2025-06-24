@@ -46,7 +46,7 @@ console.log(numDeVocals("maarcel"))
 
 
 
-// 4. Crea una función que reciba un array de strings y devuelva un nuevo array con las strings en mayúsculas.
+// 4. Crea una función que reciba un array de strings. y devuelva un nuevo array con las strings en mayúsculas.
 console.log("------------------------------------")
 
 
