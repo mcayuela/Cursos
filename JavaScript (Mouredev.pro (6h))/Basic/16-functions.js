@@ -50,6 +50,8 @@ function sum(a, b) {
 
 sum(10, 5)
 
+// Valors predeterminats (donem un valor predeterminat i si no el modifiquem es quedara com el default)
+
 function defaultSum(a = 0, b = 0) {
     console.log(a + b)
 }
